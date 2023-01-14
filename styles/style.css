@@ -3,13 +3,25 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.header-1{
-   
+.clear::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+.left{
+   float: left; 
+}
+.right{
+    float: right;
+}
+.header-1 {
+    width: 1519px;
+    height: 1265px;
+    background-color: #f0e3d4;
 }
 nav{
     width: 100%;
     height: 80px;
-    background-color: rgb(125, 159, 188);
 }
 label.logo{
     font-size: 35px;
@@ -46,9 +58,98 @@ nav ul li a{
 span{
  
 }
-.banar-title{
+.banar-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 77px;
+}
+.banar-text {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.btn-1{
     text-align: center;
 }
+.btn{
+    text-align: center;
+    height: 61px;
+    border-radius: 5px;
+    background:#FD6E0A;
+    color:#FFFFFF ;
+    font-size: 18px;
+    border: 0;
+    padding: 18px 30px;
+}
+img {
+    width: 1440px;
+    height: 713px;
+    /* text-align: center; */
+    margin-left: 38px;
+    margin-top: 44px;
+}
+
+/* -----------style--------main-----section */
+.main-img{
+    width: 300px;
+    height: 300px;
+}
+.team-img{
+    width: 300px;
+    height: 300px;
+}
+.main-1 {
+    height: 800px;
+    width: 1302px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-let: 213px;
+    margin-top: 45px;
+}
+.main-2 {
+    height: 700px;
+    width: 700px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: -42px;
+    margin-left: 181px;
+}
+.main-3 {
+    height: 367px;
+    width: 400px;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    margin-top: 226px;
+}
+.main-title {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 23px;
+    font-weight: 700;
+}
+.main-title-1{
+    color: #727272;
+}
+.main-title-2 {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 23px;
+    color: #fd6e0a;
+    font-weight: 700;
+}
+.main-text {
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 34px;
+}
+.main-btn{
+    text-align: left;
+}
+
 @media screen and (max-width:675px){
     label.logo{
         font-size: 22px;
