@@ -227,7 +227,125 @@ img {
     font-size: 33px;
     font-weight: 700;
 }
+/* -----------style--facts---section-------- */
+.facts {
+    margin-left: 227px;
+    margin-top: 50px;
+}
+.facts-title{
+    font-size: 30px;
+    font-size: 700;
+}
+.facts-text {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 34px;
+}
+.facts-card {
+    margin: auto;
+    height: 227px;
+    width: 75%;    
+    padding: 10px;
+    margin-top: 99px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-content: center; */
+    align-items: center;
+}
+.facts-card-1 {
+    height: 216px;
+    width: 199px;
+    border: 2px solid #fd6e0a;
+    border-radius: 10px;
+    margin-left: 32px;
+    transition: transform .5s;
+}
+.facts-card-1:hover {
+    transform: translateY(-7px);
 
+}
+
+.facts-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 81px;
+}
+.facts-number {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.facts-text-card {
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+/* --------style-----sponser */
+.sponser {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sponser-text{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 39px;
+    /* font-weight: 700; */
+}
+.sponser-1{
+    width: 1250px;
+    margin: 0 auto;
+}
+.sponser-3{
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.sponser-img {
+    height: 44px;
+    width: 127px;
+}
+.footer-section {
+    height: 300px;
+    width: auto;
+    background-color: rgb(239, 234, 244);
+}
+.footer-title {
+    text-align: center;
+    margin-top: 83px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.footer-left {
+    margin-left: 122px;
+    margin-top: 40px;
+    line-height: 29px;
+}
+.footer-right{
+    margin-right: 122px;
+    margin-top: 40px;
+    line-height: 29px;
+}
+.copyright {
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #eaddd4;
+    height: 76px;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.copyright-text {
+    text-align: center;
+    align-items: center;
+    padding-top: 29px;
+}
 
 @media screen and (max-width:675px){
     label.logo{
