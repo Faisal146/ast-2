@@ -347,13 +347,22 @@ img {
     padding-top: 29px;
 }
 
-@media screen and (max-width:675px){
-    label.logo{
+/* @media only screen and (max-width:675px){
+    .header-1 {
+    width: 100%;
+    background-color: #dfb2b2;
+    hight: auto;
+    display: flex;
+    flex-direction: column;
+}
+    .header-1.logo{
         font-size: 22px;
+        padding-left: 50px;
        
     }
     .checkbtn{
-        display: block;
+        display: inline-block;
+        
     }
     ul{
         position:fixed
@@ -369,6 +378,20 @@ img {
     nav ul li a{
         font-size: 20px;
     }
-}
 
+    img{
+        width: 440px;
+        height: 413px;
+        /* text-align: center; */
+        /* margin-left: 38px;
+        margin-top: 44px;
+    }
+    .main-1{
+        width: 100%;
+        flex-direction: column-reverse;
+        height: auto;
+        text-align: center;
+    }
+} */
 
+ */
